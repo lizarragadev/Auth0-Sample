@@ -1,4 +1,5 @@
 # Simple Authentication with Auth0
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://doge.mit-license.org)
 
 This is an example to authentication using Auth0 to Android Application.
 
