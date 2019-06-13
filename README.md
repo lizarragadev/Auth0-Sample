@@ -12,8 +12,8 @@
 
 - Requirements
         
-    >   Gradle version: 3.4.0
-        SdkVersion: 28.0.0
+    * Gradle version: 3.4.0
+    * SdkVersion: 28.0.0
         
 ## Auth0 Dashboard
 
@@ -24,7 +24,7 @@
 - Add the allowed callback in the next format:
     
     ```
-    {YOUR_SCHEME}://**{YOUR_AUTH0_DOMAIN}**/android/**{YOUR_APP_PACKAGE_NAME}**/callback
+    {YOUR_SCHEME}://{YOUR_AUTH0_DOMAIN}/android/{YOUR_APP_PACKAGE_NAME}/callback
     ```
         
     _YOUR_CHEME is the type of connection to Auth0 application, you can use **https** or **demo**_   
@@ -40,7 +40,7 @@
         
 - Replace **YOUR_SCHEME** in **build.gradle** (Module) file, in manifestPlaceholders line.
     ```gradle
-    manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "**{YOUR_SCHEME}**"]
+    manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "{YOUR_SCHEME}"]
     ```
 
 ## Licence
