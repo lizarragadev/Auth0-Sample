@@ -23,8 +23,8 @@
 
 - Add the allowed callbak in the next format:
     
-    ```gradle
-        **{YOUR_SCHEME}**://**{YOUR_AUTH0_DOMAIN}**/android/**{YOUR_APP_PACKAGE_NAME}**/callback
+    ```
+        {YOUR_SCHEME}://**{YOUR_AUTH0_DOMAIN}**/android/**{YOUR_APP_PACKAGE_NAME}**/callback
     ```
         
     _YOUR_CHEME is the type of connection to Auth0 application, you can use **https** or **demo**_   
