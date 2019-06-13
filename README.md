@@ -1,21 +1,30 @@
 # Simple Authentication with Auth0
 
-    This is an example to authentication using Auth0.
-    
-## Usage
+This is an example to authentication using Auth0 to Android Application.
 
-- Clone this repository
+## Getting Started
+
+Auth0 is a service that will facilitate the tedious process that entails performing authentication and secure authorization.
+
+### Prerequisites
+
+Clone this repository
     
     > git clone https://github.com/Gusn8/Auth0-Sample.git
-    
-- Import to Android Studio 3.x 
+
+
+### Installing
+
+#### In Android Studio
+
+- Import project to Android Studio 3.x 
 
 - Requirements
         
     * Gradle version: 3.4.0
     * SdkVersion: 28.0.0
         
-## Auth0 Dashboard
+#### In Auth0 Dashboard
 
 - Create an Application in [Auth0 dashboard](https://manage.auth0.com/dashboard/)
 
@@ -29,7 +38,7 @@
         
     _YOUR_CHEME is the type of connection to Auth0 application, you can use **https** or **demo**_   
      
-## Changes in Android App
+#### Changes in Android App
 
 - Replace your **CLIENT_ID** and **YOUR_DOMAIN** in **strings.xml** file.
     
@@ -43,8 +52,25 @@
     manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "{YOUR_SCHEME}"]
     ```
 
-## Licence
 
-MIT License
+## Running
 
-This project is licensed under the MIT license. See the [LICENSE](https://github.com/Gusn8/Auth0-Sample/blob/master/LICENSE.md) file for more info.
+Click on **Run as Android Application**
+
+## Built With
+
+* [Android Studio](https://developer.android.com/studio/) - The IDE used.
+* [Kotlin](https://kotlinlang.org/) - The language programming used.
+* [Auth0](https://auth0.com/) - The service used.
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+* **Gustavo Lizárraga** - [Gusn8](https://github.com/Gusn8)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Gusn8/Auth0-Sample/blob/master/LICENSE.md) file for more details.
