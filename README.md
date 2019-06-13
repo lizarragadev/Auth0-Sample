@@ -17,7 +17,7 @@
         
 ## Auth0 Dashboard
 
-- Create an Application in dashboard.
+- Create an Application in [Auth0 dashboard](https://manage.auth0.com/dashboard/)
 
 - Select the authentication type.
 
@@ -27,12 +27,14 @@
         
     _YOUR_CHEME is the type of connection to Auth0 application, you can use **https** or **demo**_   
      
-## Changes
+## Changes in Android App
 
 - Replace your **CLIENT_ID** and **YOUR_DOMAIN** in **strings.xml** file.
     
-    > <string name="com_auth0_client_id">{YOUR_CLIENT_ID}</string>
-    > <string name="com_auth0_domain">{YOUR_DOMAIN}</string>
+    ```xml
+      <string name="com_auth0_client_id">{YOUR_CLIENT_ID}</string>
+      <string name="com_auth0_domain">{YOUR_DOMAIN}</string>
+    ```
         
 - Replace **YOUR_SCHEME** in **build.gradle** (Module) file, in manifestPlaceholders line.
     
