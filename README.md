@@ -15,6 +15,18 @@
     > Gradle version: 3.4.0
     > SdkVersion: 28.0.0
         
+## Auth0 Dashboard
+
+- Create an Application in dashboard.
+
+- Select the authentication type.
+
+- Add the allowed callbak in the next format:
+    
+    > **{YOUR_SCHEME}**://**{YOUR_AUTH0_DOMAIN}**/android/**{YOUR_APP_PACKAGE_NAME}**/callback
+        
+    _YOUR_CHEME is the type of connection to Auth0 application, you can use **https** or **demo**_   
+     
 ## Changes
 
 - Replace your **CLIENT_ID** and **YOUR_DOMAIN** in **strings.xml** file.
@@ -27,4 +39,26 @@
     > manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "**{YOUR_SCHEME}**"]
 
 
-##  
+## Licence
+
+MIT License
+
+Copyright (c) 2019 Gustavo Lizárraga
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
