@@ -23,7 +23,9 @@
 
 - Add the allowed callbak in the next format:
     
-    > **{YOUR_SCHEME}**://**{YOUR_AUTH0_DOMAIN}**/android/**{YOUR_APP_PACKAGE_NAME}**/callback
+    ```gradle
+        **{YOUR_SCHEME}**://**{YOUR_AUTH0_DOMAIN}**/android/**{YOUR_APP_PACKAGE_NAME}**/callback
+    ```
         
     _YOUR_CHEME is the type of connection to Auth0 application, you can use **https** or **demo**_   
      
@@ -37,9 +39,9 @@
     ```
         
 - Replace **YOUR_SCHEME** in **build.gradle** (Module) file, in manifestPlaceholders line.
-    
-    > manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "**{YOUR_SCHEME}**"]
-
+    ```gradle
+        manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "**{YOUR_SCHEME}**"]
+    ```
 
 ## Licence
 
