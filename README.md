@@ -17,14 +17,14 @@
         
 ## Changes
 
-- Replace your _CLIENT_ID_ and _YOUR_DOMAIN_ in *strings.xml* file.
+- Replace your **CLIENT_ID** and **YOUR_DOMAIN** in **strings.xml** file.
     
     > <string name="com_auth0_client_id">{YOUR_CLIENT_ID}</string>
     > <string name="com_auth0_domain">{YOUR_DOMAIN}</string>
         
-- Replace _YOUR_SCHEME_ in _build.gradle_ (Module) file, in manifestPlaceholders line.
+- Replace **YOUR_SCHEME** in **build.gradle** (Module) file, in manifestPlaceholders line.
     
-    > manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "_{YOUR_SCHEME}_"]
+    > manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "**{YOUR_SCHEME}**"]
 
 
 ##  
